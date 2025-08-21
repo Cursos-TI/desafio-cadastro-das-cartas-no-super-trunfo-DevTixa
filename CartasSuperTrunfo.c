@@ -3,7 +3,7 @@
 // Estrutura que representa uma carta do Super Trunfo
 int main(){
    char estado, cidade[50];
-   int população, PontosTuristicos;
+   int populacao, PontosTuristicos;
    float area, pib, densidade, pibpercapita;
 
    //carta 01
@@ -18,7 +18,7 @@ int main(){
    scanf("%s", cidade);
 
    printf("Digite o Número de Habitantes: ");
-   scanf("%d", &população);
+   scanf("%d", &populacao);
 
    printf("Digite a Área da Cidade: ");
    scanf("%f", &area);
@@ -30,15 +30,15 @@ int main(){
    scanf("%d", &PontosTuristicos);
    
    // Calcular a densidade populacional e pib per capita
-   densidade = (float) população / area;
-   pibpercapita = (float) pib / população;
+   densidade = (float) populacao / area;
+   pibpercapita = (float) pib / populacao;
 
    // Exibindo os dados inseridos
    printf("\nCarta 1:\n");
    printf("Estado: %c\n", estado);
    printf("Código: %c01\n", estado);
    printf("Nome da Cidade: %s\n", cidade);
-   printf("População: %d\n", população);
+   printf("População: %d\n", populacao);
    printf("Área: %.2f km²\n", area);
    printf("PIB: %.2f reais\n", pib);
    printf("Número de Pontos Turísticos: %d Locais\n", PontosTuristicos);
@@ -57,7 +57,7 @@ int main(){
    scanf("%s", cidade);
 
    printf("Digite o Número de Habitantes: ");
-   scanf("%d", &população);
+   scanf("%d", &populacao);
 
    printf("Digite a Área da Cidade: ");
    scanf("%f", &area);
@@ -69,15 +69,15 @@ int main(){
    scanf("%d", &PontosTuristicos);
    
    // Calcular a densidade populacional e pib per capita
-   densidade = (float) população / area;
-   pibpercapita = (float) pib / população;
+   densidade = (float) populacao / area;
+   pibpercapita = (float) pib / populacao;
 
    // Exibindo os dados inseridos
    printf("\nCarta 2:\n");
    printf("Estado: %c\n", estado);
    printf("Código: %c02\n", estado);
    printf("Nome da Cidade: %s\n", cidade);
-   printf("População: %d\n", população);
+   printf("População: %d\n", populacao);
    printf("Área: %.2f km²\n", area);
    printf("PIB: %.2f reais\n", pib);
    printf("Número de Pontos Turísticos: %d Locais\n", PontosTuristicos);
